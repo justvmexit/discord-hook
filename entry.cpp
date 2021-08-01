@@ -44,7 +44,7 @@ bool __stdcall DllMain(HMODULE hodule, ULONG reason, PVOID reserved)
 #endif
 
         std::uint64_t DiscordHook64 = reinterpret_cast<std::uint64_t>(GetModuleHandle("DiscordHook64.dll"));
-        DXGI_PRESENT_ALLOW_TEARING;
+
         /*
         Hooking the present scene function with da MEGA elite 1337 .data swap
         */
